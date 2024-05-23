@@ -1,6 +1,6 @@
 package es3.entities;
 
-import es1.enums.Department;
+import es3.enums.Department;
 import es3.interfaces.Checker;
 
 import java.util.Random;

@@ -1,11 +1,7 @@
 package es3;
 
-import es1.enums.Department;
-import es2.entities.Employee;
-import es2.entities.Executive;
-import es2.entities.FullTimeEmployee;
-import es2.entities.PartTimeEmployee;
-import es3.entities.Volunteer;
+import es3.entities.*;
+import es3.enums.Department;
 
 public class Main {
     public static void main(String[] args) {
@@ -51,8 +47,7 @@ public class Main {
         System.out.println("Total part time employees: " + totalSalaryPartTimes);
 
 
-//        max.checkIn();
-
+        max.checkIn();
         saintPeter.checkIn();
 
     }

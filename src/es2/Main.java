@@ -1,10 +1,10 @@
 package es2;
 
-import es1.enums.Department;
 import es2.entities.Employee;
 import es2.entities.Executive;
 import es2.entities.FullTimeEmployee;
 import es2.entities.PartTimeEmployee;
+import es2.enums.Department;
 
 public class Main {
     public static void main(String[] args) {

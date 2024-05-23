@@ -1,6 +1,5 @@
 package es3.entities;
 
-
 import es3.interfaces.Checker;
 
 public class Volunteer implements Checker {
@@ -8,7 +7,6 @@ public class Volunteer implements Checker {
     private String name;
     //    private CV[] curriculum;
     private boolean curriculum;
-
 
     public Volunteer(String name, int age, boolean curriculum) {
         this.name = name;

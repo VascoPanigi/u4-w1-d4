@@ -1,7 +1,6 @@
 package es3.entities;
 
-import es1.enums.Department;
-import es2.entities.Employee;
+import es3.enums.Department;
 
 public class PartTimeEmployee extends Employee {
 
@@ -9,7 +8,7 @@ public class PartTimeEmployee extends Employee {
         super(department);
         this.salary = calculateSalary();
     }
-    
+
     @Override
     public int calculateSalary() {
         int baseSalary = super.getSalary();

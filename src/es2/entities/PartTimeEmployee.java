@@ -1,6 +1,6 @@
 package es2.entities;
 
-import es1.enums.Department;
+import es2.enums.Department;
 
 public class PartTimeEmployee extends Employee {
 

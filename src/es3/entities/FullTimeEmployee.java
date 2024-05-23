@@ -1,10 +1,8 @@
 package es3.entities;
 
-import es1.enums.Department;
-import es2.entities.Employee;
+import es3.enums.Department;
 
 public class FullTimeEmployee extends Employee {
-
 
     public FullTimeEmployee(Department department) {
         super(department);
